@@ -20,6 +20,10 @@ void setup(){
       Board[i][j] = -1;
     }
   }
+  
+  //ADD BLOCKS HERE
+  //0 - 9 = Numbers
+  //10 Pointer
   Board[0][0] = 10;
   for(int i = 0; i < 10; i ++){
     Board[i][1] = i;
